@@ -1,0 +1,23 @@
+### Eager
+GET localhost:8080/creational/singleton/eager
+
+### Lazy
+GET localhost:8080/creational/singleton/lazy
+
+### Double Checked Locking
+GET localhost:8080/creational/singleton/double-checked-locking
+
+### Bill Pugh
+GET localhost:8080/creational/singleton/bill-pugh
+
+### 주문
+POST localhost:8080/creational/singleton/orders
+Content-Type: application/json
+
+{
+  "name": "아이스 아메리카노"
+}
+
+
+### 주문 전체 조회
+GET localhost:8080/creational/singleton/orders
