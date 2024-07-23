@@ -1,0 +1,14 @@
+### 주문
+POST localhost:8080/creational/builder/orders
+Content-Type: application/json
+
+{
+  "type": "아이스 아메리카노",
+  "size": "TALL",
+  "milk": false,
+  "sugar": false
+}
+
+### 주문-아메리카노
+POST localhost:8080/creational/builder/orders/americano
+Content-Type: application/json
