@@ -1,0 +1,16 @@
+POST localhost:8080/structural/adapters/orders
+Content-Type: application/json
+
+{
+"type": "아메리카노",
+"temperature": "ICED"
+}
+
+###
+POST localhost:8080/structural/adapters/login
+Content-Type: application/json
+
+{
+  "email": "koonsland@koonsland.com",
+  "password": "koonslanda@koonsland.com"
+}
